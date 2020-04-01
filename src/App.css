@@ -2,3 +2,9 @@ body {
   font-family: 'Roboto', sans-serif;
   padding: 20px 80px;
 }
+
+a {
+  text-decoration: none;
+  color: rgb(119, 116, 119);
+  font-weight: bold;
+}
