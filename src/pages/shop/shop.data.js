@@ -7,25 +7,25 @@ const SHOP_DATA = [
       {
         id: 1,
         name: 'VR Glasses 1',
-        imageUrl: '',
+        imageUrl: 'https://i.ibb.co/KGVZh8J/vr1.jpg',
         price: 20
       },
       {
         id: 2,
         name: 'Cardboar Black',
-        imageUrl: '',
+        imageUrl: 'https://i.ibb.co/YRtjtCD/vr2.jpg',
         price: 15
       },
       {
         id: 3,
         name: 'Foldable VR Glasses',
-        imageUrl: '',
+        imageUrl: 'https://i.ibb.co/9YSSxMW/vr3.jpg',
         price: 25
       },
       {
         id: 4,
         name: 'VR Start Pro',
-        imageUrl: '',
+        imageUrl: 'https://i.ibb.co/Wn0wvp3/vr4.jpg',
         price: 22
       },
       {
@@ -62,13 +62,13 @@ const SHOP_DATA = [
       {
         id: 1,
         name: 'Wind Turbine Pro',
-        imageUrl: '',
+        imageUrl: 'https://i.ibb.co/rFQbPtq/green1.jpg',
         price: 220
       },
       {
         id: 2,
         name: 'Solar Panel 1',
-        imageUrl: '',
+        imageUrl: 'https://i.ibb.co/YTQfWzq/green2.jpg',
         price: 280
       },
       {
