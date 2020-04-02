@@ -12,7 +12,7 @@
 
   .logo-container {
     height: 100%;
-    width: 70px;
+    width: 120px;
     padding: 0 25px;
   }
 
@@ -31,5 +31,9 @@
     .option {
       padding: 10px 15px;
     }
+  }
+
+  .out:hover {
+    cursor: pointer;
   }
 }

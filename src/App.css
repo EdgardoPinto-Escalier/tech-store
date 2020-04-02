@@ -3,8 +3,12 @@ body {
   padding: 20px 80px;
 }
 
-a {
+a, .out {
   text-decoration: none;
   color: rgb(119, 116, 119);
   font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
 }
