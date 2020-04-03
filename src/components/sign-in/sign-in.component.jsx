@@ -29,7 +29,7 @@ class SignIn extends React.Component {
   render() {
     return(
       <div className="sign-in">
-        <h2>I already have an account</h2>
+        <h2 className="title">I already have an account</h2>
         <span>Sign in with your email and password</span>
 
         <form onSubmit={this.handleSubmit}>
@@ -53,11 +53,10 @@ class SignIn extends React.Component {
 
           <div className="buttons">
             <CustomButton type="submit"><FaSignInAlt className="sign-in-out-icon" /> SIGN IN</CustomButton>
-            <CustomButton
-              onClick={signInWithGoogle} isGoogleSignIn>
+            <CustomButton onClick={signInWithGoogle} isGoogleSignIn>
               <FaGooglePlusSquare className="sign-in-out-icon" />
               SIGN IN WITH GOOGLE
-          </CustomButton>
+            </CustomButton>
           </div>
         </form>
       </div>
@@ -66,7 +65,3 @@ class SignIn extends React.Component {
 }
 
 export default SignIn;
-
-
-
-
