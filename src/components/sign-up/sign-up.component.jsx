@@ -23,6 +23,7 @@ class SignUp extends React.Component {
     const { displayName, email, password, confirmPassword } = this.state;
 
     if(password !== confirmPassword) {
+
       alert("Passwords don't match");
       return;
     }
@@ -51,7 +52,8 @@ class SignUp extends React.Component {
 
   render() {
     const {displayName, email, password, confirmPassword} = this.state;
-    return(
+    
+    return (
       <div className="sign-up">
         <h2 className="title">I do not have an account</h2>
         <span>Sign up with your email and password</span>
@@ -88,10 +90,12 @@ class SignUp extends React.Component {
             label="Confirm Password"
             required
           />
-          <CustomButton type="submit"><FaEdit className="sign-in-out-icon"/> SIGN UP</CustomButton>
+          <CustomButton type="submit">
+            <FaEdit className="sign-in-out-icon" /> SIGN UP
+          </CustomButton>
         </form>
       </div>
-    )
+    );
   }
 }
 
