@@ -94,6 +94,7 @@ class SignUp extends React.Component {
             <FaEdit className="sign-in-out-icon" /> SIGN UP
           </CustomButton>
         </form>
+
       </div>
     );
   }
