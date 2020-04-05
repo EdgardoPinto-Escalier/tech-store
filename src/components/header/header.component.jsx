@@ -25,7 +25,6 @@ const Header = ({ currentUser }) => (
           <FaSignInAlt className="menu-icon" /> SIGN IN
         </Link>
       }
-
     </div>
   </div>
 )
