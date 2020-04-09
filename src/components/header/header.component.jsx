@@ -5,7 +5,6 @@ import { auth } from '../../firebase/firebase.utils';
 import { ReactComponent as Logo } from '../../assets/react-brands.svg';
 import './header.styles.scss';
 import { FaShoppingBasket, FaEnvelope, FaSignInAlt, FaSignOutAlt } from 'react-icons/fa';
-//import userReducer from '../../redux/user/user.reducer';
 
 const Header = ({ currentUser }) => (
   <div className="header">
@@ -19,13 +18,12 @@ const Header = ({ currentUser }) => (
       <Link className="option" to="/shop">
         <FaEnvelope className="menu-icon" /> CONTACT
       </Link>
-      {
-        currentUser ?
-          <div className="option out" onClick={() => auth.signOut()}><FaSignOutAlt className="menu-icon"/> SIGN OUT</div>
-        :
+      {currentUser ? (
+          <div className="option out" onClick={() => auth.signOut()}><FaSignOutAlt className="menu-icon"/> SIGN OUT</div>)
+        : (
         <Link className="option" to="/signin">
           <FaSignInAlt className="menu-icon" /> SIGN IN
-        </Link>
+        </Link>)
       }
     </div>
   </div>
