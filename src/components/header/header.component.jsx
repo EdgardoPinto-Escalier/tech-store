@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { auth } from '../../firebase/firebase.utils';
 import CartIcon from '../cart-icon/cart-icon.component';
+import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 import { ReactComponent as Logo } from '../../assets/react-brands.svg';
 import './header.styles.scss';
 import { FaShoppingBasket, FaEnvelope, FaSignInAlt, FaSignOutAlt } from 'react-icons/fa';
@@ -28,6 +29,7 @@ const Header = ({ currentUser }) => (
       }
       <CartIcon />
     </div>
+    <CartDropdown />
   </div>
 );
 
