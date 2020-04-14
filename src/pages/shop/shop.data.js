@@ -60,49 +60,49 @@ const SHOP_DATA = [
     routeName: 'green-technologies',
     items: [
       {
-        id: 1,
+        id: 9,
         name: 'Wind Turbine Pro',
         imageUrl: 'https://i.ibb.co/rFQbPtq/green1.jpg',
         price: 220
       },
       {
-        id: 2,
+        id: 10,
         name: 'Solar Panel 1',
         imageUrl: 'https://i.ibb.co/YTQfWzq/green2.jpg',
         price: 280
       },
       {
-        id: 3,
+        id: 11,
         name: 'Solar Panels 2',
         imageUrl: '',
         price: 110
       },
       {
-        id: 4,
+        id: 12,
         name: 'Wind Turbine III',
         imageUrl: '',
         price: 160
       },
       {
-        id: 5,
+        id: 13,
         name: 'Solar Panel 5',
         imageUrl: '',
         price: 160
       },
       {
-        id: 6,
+        id: 14,
         name: 'Pro Solar Panel 5 Units',
         imageUrl: '',
         price: 160
       },
       {
-        id: 7,
+        id: 15,
         name: '2 Solar Panels',
         imageUrl: '',
         price: 190
       },
       {
-        id: 8,
+        id: 16,
         name: 'Wind Turbine 6',
         imageUrl: '',
         price: 200
@@ -115,31 +115,31 @@ const SHOP_DATA = [
     routeName: 'smart-home',
     items: [
       {
-        id: 1,
+        id: 17,
         name: 'IP Camera Pro',
         imageUrl: '',
         price: 125
       },
       {
-        id: 2,
+        id: 18,
         name: 'IP Camera 2',
         imageUrl: '',
         price: 90
       },
       {
-        id: 3,
+        id: 19,
         name: 'IP Camera Full Set',
         imageUrl: '',
         price: 90
       },
       {
-        id: 4,
+        id: 20,
         name: 'IP Camera 6',
         imageUrl: '',
         price: 165
       },
       {
-        id: 5,
+        id: 21,
         name: 'IP Camera 10',
         imageUrl: '',
         price: 185
@@ -152,43 +152,43 @@ const SHOP_DATA = [
     routeName: 'laptops',
     items: [
       {
-        id: 1,
+        id: 22,
         name: 'Laptop Model 1',
         imageUrl: '',
         price: 25
       },
       {
-        id: 2,
+        id: 23,
         name: 'Laptop Model 2',
         imageUrl: '',
         price: 20
       },
       {
-        id: 3,
+        id: 24,
         name: 'Laptop Model 3',
         imageUrl: '',
         price: 80
       },
       {
-        id: 4,
+        id: 25,
         name: 'Laptop Model 4',
         imageUrl: '',
         price: 80
       },
       {
-        id: 5,
+        id: 26,
         name: 'Laptop Model 5',
         imageUrl: '',
         price: 45
       },
       {
-        id: 6,
+        id: 27,
         name: 'Laptop Model 6',
         imageUrl: '',
         price: 135
       },
       {
-        id: 7,
+        id: 28,
         name: 'Laptop Model 7',
         imageUrl: '',
         price: 20
@@ -201,37 +201,37 @@ const SHOP_DATA = [
     routeName: 'drones',
     items: [
       {
-        id: 1,
+        id: 29,
         name: 'Drone 1',
         imageUrl: '',
         price: 325
       },
       {
-        id: 2,
+        id: 30,
         name: 'Drone 2',
         imageUrl: '',
         price: 20
       },
       {
-        id: 3,
+        id: 31,
         name: 'Drone 3',
         imageUrl: '',
         price: 25
       },
       {
-        id: 4,
+        id: 32,
         name: 'Drone 4',
         imageUrl: '',
         price: 25
       },
       {
-        id: 5,
+        id: 33,
         name: 'Drone 5',
         imageUrl: '',
         price: 40
       },
       {
-        id: 6,
+        id: 34,
         name: 'Drone 6',
         imageUrl: '',
         price: 25
