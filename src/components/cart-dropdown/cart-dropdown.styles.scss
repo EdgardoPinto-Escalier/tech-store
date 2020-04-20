@@ -11,6 +11,18 @@
   right: 40px;
   z-index: 5;
 
+  .empty-message {
+    font-size: 18px;
+    margin: 50px auto;
+    text-transform: uppercase;
+  }
+
+  .empty-cart-icon {
+    vertical-align: middle;
+    margin-bottom: 7px;
+    font-size: 1.3rem;
+  }
+
   .cart-items {
     height: 270px;
     display: flex;
