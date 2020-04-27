@@ -1,7 +1,7 @@
-## Tech Store
-#  Tech store created using React and Redux
+# Tech Store
+##  Tech store created using React and Redux
 
-#  This project includes de following:
+###  This project includes de following:
 - React Routing
 - Forms
 - Firebase
